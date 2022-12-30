@@ -60,5 +60,7 @@ body{
     }
 }
 /* .triangle:active{
-    border-bottom: 500px solid rgb(255, 0, 212);
+    border-bottom: 20vh solid rgb(255, 234, 0);
+    border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
 } */
