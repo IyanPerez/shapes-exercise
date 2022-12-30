@@ -3,6 +3,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    transform: scale(1.5);
 }
 .shapes{
     display: flex;
@@ -13,20 +17,20 @@ body{
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-bottom: 50px solid rgb(255, 234, 0);
-    margin: 5vw;
+    margin: 2vw;
 }
 .square {
     height: 50px;
     width: 50px;
     background-color: rgb(255, 0, 0);
-    margin: 5vw;
+    margin: 2vw;
 }
 .circle {
     height: 50px;
     width: 50px;
     background-color: rgb(34, 0, 255);
     border-radius: 50%;
-    margin: 5vw;
+    margin: 2vw;
 
 }
 @media (hover: hover){
@@ -34,19 +38,25 @@ body{
         border-bottom: 50px solid rgb(0, 0, 0);
         position: relative;
         bottom: 1vh;
-        transition: 0.5s;
+        left: 0.3vw;
+        transition: 1s;
+        transform: scale(1.2);
     }
     .square:hover{
         background-color: rgb(0, 0, 0);
         position: relative;
         bottom: 1vh;
-        transition: 0.5s;
+        left: 0.3vw;
+        transition: 1s;
+        transform: scale(1.2);
     }
     .circle:hover{
         background-color: rgb(0, 0, 0);
         position: relative;
-        transition: 0.5s;
         bottom: 1vh;
+        left: 0.3vw;
+        transition: 1s;
+        transform: scale(1.2);
     }
 }
 /* .triangle:active{
