@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shapes{
+    display: flex;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(255, 234, 0);
+    margin: 5vw;
+}
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 0, 0);
+    margin: 5vw;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(34, 0, 255);
+    border-radius: 50%;
+    margin: 5vw;
+}
