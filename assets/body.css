@@ -11,21 +11,22 @@ body{
 .shapes{
     display: flex;
 }
-.triangle{
+#triangle{
 	width: 0;
 	height: 0;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-bottom: 50px solid rgb(255, 234, 0);
     margin: 2vw;
+    display: block;
 }
-.square {
+#square {
     height: 50px;
     width: 50px;
     background-color: rgb(255, 0, 0);
     margin: 2vw;
 }
-.circle {
+#circle {
     height: 50px;
     width: 50px;
     background-color: rgb(34, 0, 255);
@@ -34,7 +35,7 @@ body{
 
 }
 @media (hover: hover){
-    .triangle:hover{
+    #triangle:hover{
         border-bottom: 50px solid rgb(0, 0, 0);
         position: relative;
         bottom: 1vh;
@@ -42,7 +43,7 @@ body{
         transition: 1s;
         transform: scale(1.2);
     }
-    .square:hover{
+    #square:hover{
         background-color: rgb(0, 0, 0);
         position: relative;
         bottom: 1vh;
@@ -50,7 +51,7 @@ body{
         transition: 1s;
         transform: scale(1.2);
     }
-    .circle:hover{
+    #circle:hover{
         background-color: rgb(0, 0, 0);
         position: relative;
         bottom: 1vh;
@@ -59,7 +60,7 @@ body{
         transform: scale(1.2);
     }
 }
-/* .triangle:active{
+/* #triangle:active{
     border-bottom: 20vh solid rgb(255, 234, 0);
     border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
